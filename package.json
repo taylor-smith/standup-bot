@@ -1,0 +1,14 @@
+{
+  "name": "suited-standup-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taylor-smith/suited-standup-bot.git",
+  "author": "Taylor Smith <twsmith89@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "atob": "^2.1.2",
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0"
+  }
+}
