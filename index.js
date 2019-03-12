@@ -10,7 +10,8 @@ exports.SendStandup = async () => {
     .toLocaleDateString("en-US")
     .split("/")
     .join("-");
-  const githubEndpoint = `${GITHUB_API_ENDPOINT}/${today}.md`;
+  console.log(today);
+  const githubEndpoint = `${process.env.GITHUB_API_ENDPOINT}/${today}.md`;
   try {
     const ghRes = await axios.get(githubEndpoint, {
       auth: {
